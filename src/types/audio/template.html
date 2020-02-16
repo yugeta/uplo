@@ -1,0 +1,59 @@
+<li class="uplo-li">
+  <div class="header">
+    <span class="num"></span>
+    <input class="filename" name="name" />
+    <img class="icon delete" src="{{dir}}img/delete.svg">
+  </div>
+  <div class="contents-area">
+    <!-- <audio class="audio" src="" preload="auto" /> -->
+    <audio class="audio" controls>
+      <source class="source" src="">
+    </audio>
+
+    <div class="loading-area">
+      <div class="loading">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="info" data-view="">
+    <div class="info-time">{{time}}</div>
+    <div class="info-type">{{content-type}}</div>
+    <div class="info-size">{{content-size}}</div>
+  </div>
+
+  <div class="control" data-num="0">
+    <img class="comment-icon" src="comment.svg">
+    <img class="info-icon" src="info.svg">
+  </div>
+  
+  <div class="comment-area" data-view="0">
+    <textarea class="comment-form" placeholder="Comment"></textarea>
+  </div>
+
+  <div class="idv3-area" data-view="0">
+    Title : {{idv3-title}}
+    Album : {{idv3-album}}
+    Artist : {{idv3-artist}}
+  </div> -->
+
+  <div class="comment-area" data-view="0">
+    <img class="icon comment-icon" src="{{dir}}img/comment.svg">
+    <textarea class="comment-form" placeholder="Comment"></textarea>
+  </div>
+  
+  <div class="info">
+    <div class="info-group"><span class="label">Mime : </span><span class="info-type"></span></div>
+    <div class="info-group"><span class="label">Size : </span><span class="info-size"></span></div>
+    <div class="info-group"><span class="label">Time : </span><span class="info-time"></span></div>
+  </div>
+</li>

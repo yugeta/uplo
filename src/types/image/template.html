@@ -1,0 +1,50 @@
+<li class="uplo-li">
+  <div class="header">
+    <span class="num"></span>
+    <!-- <span class="filename">{{filename}}</span> -->
+    <input class="filename" name="name" />
+    <img class="icon delete" src="{{dir}}img/delete.svg">
+  </div>
+  <div class="contents-area">
+    <img class="picture" src="">
+    <div class="trim-area" data-visible="0">
+      <div class="trim-relative">
+        <div class="trim-box"></div>
+        <div class="trim-pointer" data-type="top-left"></div>
+        <div class="trim-pointer" data-type="top-right"></div>
+        <div class="trim-pointer" data-type="bottom-left"></div>
+        <div class="trim-pointer" data-type="bottom-right"></div>
+      </div>
+    </div>
+    <div class="loading-area">
+      <div class="loading">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="control" data-num="0">
+    <img class="icon comment-icon" src="{{dir}}img/comment.svg">
+    <img class="icon rotate-icon"  src="{{dir}}img/rotate.svg">
+    <img class="icon trim-icon"    src="{{dir}}img/crop.svg">
+  </div>
+
+  <div class="comment-area" data-view="0">
+    <textarea class="comment-form" placeholder="Comment"></textarea>
+  </div>
+  
+  <div class="info">
+    <div class="info-group"><span class="label">Mime : </span><span class="info-type"></span></div>
+    <div class="info-group"><span class="label">Size : </span><span class="info-size"></span></div>
+    <div class="info-group info-pixel"><span class="label">Pixel : </span><span class="info-px">W: <span class="w"></span> H: <span class="h"></span></span></div>
+  </div>
+  
+</li>
